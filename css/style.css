@@ -103,11 +103,18 @@ textarea {
 }
 
 button {
-    padding: 10px;
+    height: 30px;
+    border-radius: 7px;
     background-color: #3498db;
     color: #fff;
     border: none;
     cursor: pointer;
+    transition: .8s;
+}
+button:hover{
+    transform: scale(.8);
+    border: #3498db;
+    background-color: #046183;
 }
 
 /* Pied de page */
