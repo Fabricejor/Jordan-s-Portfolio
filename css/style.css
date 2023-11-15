@@ -1,0 +1,147 @@
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f2f8ff; 
+    color: #046183;
+}
+
+iframe{
+    max-width:100%;
+    height:auto;
+}
+pre {
+    max-width: 100%;
+}
+/* Barre de navigation */
+nav {
+    background-color: #3498db; 
+    padding: 20px;
+}
+
+ul {
+    max-height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.8s;
+}
+
+li {
+    margin-right: 20px;
+    transition: ease-in 0.8s;
+}
+li:hover{
+    background-color: #fff;
+    transform: scaleY(1.2);
+    height: max-content;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: ease-in 0.8s;
+
+}
+nav >li a{
+    transition: 0.8s;
+}
+
+nav li a:hover{
+    transform: scale(1.2);
+    color: #3498db;
+    background-color: #fff;
+}
+/* Section Accueil */
+header {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Section À propos */
+main #about {
+    background-color: #ecf0f1; /* Fond gris clair */
+    padding: 20px;
+}
+
+/* Section Travail et Section Formation */
+main #work, main #Academy {
+    background-color: #ecf0f1;
+    padding: 20px;
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+/* Section CV */
+main #resume {
+    background-color: #ecf0f1;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Section Contact */
+#contact {
+    background-color: #ecf0f1;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Pied de page */
+footer {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+ul li {
+    margin: 0 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Media Query pour rendre la page responsive */
+@media only screen and (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
